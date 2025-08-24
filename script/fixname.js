@@ -13,7 +13,7 @@ function modifyResponse(body) {
   modifiedBody = modifiedBody.replace(
    // <div class="item-identity">[\s\S]*?<dt>이름<\/dt>[\s\S]*?<dd>([\s\S]*?)<\/dd>
     <div class="item-identity">\s*<dt>본인인증일<\/dt>\s*<dd>(\d{4}\.\d{2}\.\d{2})<\/dd>, 
-    '2025.02.01'
+    '2025.02.29'
   );
     
   return modifiedBody;
@@ -29,3 +29,4 @@ function modifyResponse(body) {
      else {
 
     $done({});
+
